@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- inicio navbar -->
+  <nav class="navbar navbar-expand-md nav-config cor_nav sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="log_nav" src="imagens/LOGO-10.png"
+          alt="logotipo Alto Padão Turismo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="nav-link" aria-current="page" href="index.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinos.html"><strong>Destinos</strong></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="promocoes.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"><strong>
+                Promoções</strong>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="high_standard.html"><strong>High Standard</strong></a></li>
+              <li><a class="dropdown-item" href="plus.html"><strong>Plus</strong></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="economica.html"><strong> Econômica</strong></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html"><strong>Contato</strong></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success borda_bot bg-primary" id="nav-link"
+            type="submit"><strong>Procurar</strong></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- fim navbar -->
+
+  <!-- inicio logo -->
+  <header class="container">
+    <section class="config_log">
+      <img id="borda_car" src="imagens/LOGO-11.png" alt="logotipo Alto Padão Turismo">
+    </section>
+  </header>
+  <!-- fim logo -->
+
+  <br>
+  <br>
+
+  <!-- inicio main card -->
+  <main class="container m_top">
+    <article>
+      <h2 class="h_center cor_tit"><strong>Promoção ECONÔMICA</strong></h2>
+      <br>
+      <h4 class="h_center">* Pacotes fixos de 5 dias *</h4>
+      <br>
+    </article>
+    <article class="card mb-3 borda_card">
+      <img class="card-img-top" src="imagens/MOR-2.jpg" alt="imagem praia Morro de São Paulo">
+      <section class="card h-100">
+        <br>
+        <h4 class="card-title h_center"><strong>MORRO DE SÃO PAULO - BA</strong></h4>
+        <section id="confg_p">
+          <p id="tam_p">As águas são extremamente cristalinas e bem mornas: prato cheio para peixes que buscam comida
+            abundante e para os banhistas, que podem nadar em meio a grande diversidade natural. O litoral está
+            dividido em Primeira Praia, Segunda Praia, Terceira Praia, Quarta Praia, e assim por diante. Quanto mais
+            afastado da Primeira Praia você estiver, mais isolada tende a ser a região!</p>
+        </section>
+        <br>
+        <hr>
+        <p class="h_center"><strong>Pagamanto em até 12X sem juros: </strong></p>
+        <br>
+        <p class="h_center"><em>De: R$ <del>2.100,00</del></em></strong></p>
+        <br>
+        <p class="h_center" id="cor_preco_prom"><strong>Por: R$ 1.939,00</strong></p>
+      </section>
+    </article>
+  </main>
+  <!-- fim main card -->
+
+  <br>
+  <br>
+
+  <!-- inicio footer -->
+  <footer id=copy>
+    <p id="formas_pagamento">
+      <strong>Formas de pagamento:</strong>
+    </p>
+    <img src="./imagens/formas de pagamento.webp" alt="Formas de pagamento" width="400px">
+    <br>
+    <br>
+    &copy;Alto Padrão Turismo Company - 2022
+  </footer>
+  <!-- fim footer -->
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

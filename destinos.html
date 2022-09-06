@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- inicio navbar -->
+  <nav class="navbar navbar-expand-md nav-config cor_nav sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="log_nav" src="imagens/LOGO-10.png"
+          alt="logotipo Alto Padão Turismo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="nav-link" aria-current="page" href="index.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinos.html"><strong>Destinos</strong></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="promocoes.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"><strong>
+                Promoções</strong>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="high_standard.html"><strong>High Standard</strong></a></li>
+              <li><a class="dropdown-item" href="plus.html"><strong>Plus</strong></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="economica.html"><strong> Econômica</strong></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html"><strong>Contato</strong></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success borda_bot bg-primary" id="nav-link"
+            type="submit"><strong>Procurar</strong></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- fim navbar -->
+
+  <!-- inicio logo -->
+  <div class="container">
+    <div class="config_log">
+      <img id="borda_car" src="imagens/LOGO-11.png" alt="logotipo Alto Padão Turismo">
+    </div>
+    <!-- fim logo -->
+
+    <!-- inicio main -->
+    <main class="container card-item">
+      <h2 class="col-md-12 h_center cor_tit"><strong>DESTINOS PARADISÍACOS</strong></h2>
+      <h4>* Pacotes fixos de 5 dias *</h4>
+
+      <!-- inicio cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/AC-P4.jpg" class="card-img-top" alt="imagem praia Arraial do Cabo">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>ARRAIAL DO CABO - RJ</strong></h5>
+              <p class="card-text">A tríade formada por Arraial do Cabo, Búzios e Cabo Frio é um verdadeiro ABC
+                tropical,
+                com águas que variam entre azul e verde, areia bem clara e cenários naturais deslumbrantes.</p>
+
+            </div>
+            <div class=" card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.446,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.999,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="./imagens/MG-P3.jpg" class="card-img-top" alt="imagem praia Maragogi">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>MARAGOGI - AL</strong></h5>
+              <p class="card-text">Localizada em plena Costa dos Corais, a cidade (e suas vizinhas Japaratinga, Porto de
+                Pedras e São Miguel dos Milagres) registra a formação de piscinas naturais durante a maré baixa,
+                causadas
+                pelo represamento dos arrecifes.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>2.046,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1849,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/PGL-P3.jpg" class="card-img-top" alt="imagem praia Porto de Galinhas">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>PORTO DE GALINHAS - PE</strong></h5>
+              <p>Muitas vezes comparada à tropical Punta Cana, na República Dominicana, a cidade mistura boa
+                infraestrutura de turismo a praias incríveis, com águas azuis e transparentes, para encantar mais de 1,2
+                milhão de visitantes por ano.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>2.146,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.934,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/MAC-P3.jpg" class="card-img-top" alt="imagem praia Maracajau.">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>MARACAJAÚ - RN</strong></h5>
+              <p class="card-text">As águas, a 7 km da costa, são tão transparentes que você conseguirá ver no fundo do
+                mar peixes, corais e diversas outras espécies da fauna marinha até mesmo sem equipamento de mergulho.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.881,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.629,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="./imagens/UB-P3.jpg" class="card-img-top" alt="imagem praia Ubatuba">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>UBATUBA - SP</strong></h5>
+              <p class="card-text">Como a costa da cidade está dividida em diversas praias, existem opções para todos os
+                gostos, ou seja, há chances de agradar todo tipo de turista: praias desertas, praias badaladas, praias
+                com
+                cachoeira e muito mais.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.299,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.149,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/TP-P3.jpg" class="card-img-top" alt="imagem praia Taipus de Fora">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>TAIPUS DE FORA - BA</strong></h5>
+              <p class="card-text">Esse destino de Barra Grande, pertinho de Itacaré, tem águas transparentes e
+                azuladas,
+                extensos coqueirais que parecem dançar com o vento, corais multicoloridos e areia bem clarinha!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.919,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.749,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/AJ-P3.jpg" class="card-img-top" alt="imagem praia Arraial d'Ajuda">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>ARRAIAL d'AJUDA - BA</strong></h5>
+              <p class="card-text">Se o Caribe tem Cancun, no México, o Brasil tem Arraial d'Ajuda, um destino que
+                combina
+                sofisticação a cenários paradisíacos, logo ali, no litoral sul da Bahia. O cenário é formado por
+                falésias
+                que colorem o horizonte em diferentes tons de
+                vermelho, areia fina e bem clarinha, coqueirais e, é claro, mar azul-turquesa.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.920,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.699,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/PA-P3.jpg" class="card-img-top" alt="imagem de Alter do Chão">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>ALTER DO CHÃO - PA</strong></h5>
+              <p class="card-text">Caribe brasileiro em plena Amazônia? Mesmo sem acesso ao
+                mar, oferece uma experiência caribenha a seus banhistas! Em um trecho do rio
+                Tapajós as águas são tão cristalinas quanto azuladas, o que rendeu o apelido caribenho dado pelo jornal
+                britânico The Guardian, que lista Alter do Chão como a praia de rio mais bonita do país.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.889,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.634,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/BB-P3.jpg" class="card-img-top" alt="imagem praia Bombinhas">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>BOMBINHAS - SC</strong></h5>
+              <p class="card-text">Praias com águas cristalinas no Brasil não são privilégio do Nordeste ou do Sudeste.
+                Um
+                bom exemplo disso é Bombinhas, no litoral de Santa Catarina. As águas da cidade atraem jovens em busca
+                de
+                agito e famílias que procuram sossego à beira-mar.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.781,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.599,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/AG-P3.jpg" class="card-img-top" alt="imagem praia Angra dos Reis">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>ANGRA DOS REIS - RJ</strong></h5>
+              <p class="card-text">Angra dos Reis está localizada no litoral sul do Estado do Rio de Janeiro, na região
+                conhecida como Costa Verde. Destaca-se no cenário turístico por suas muitas ilhas, algumas com praias de
+                areias brancas e águas cristalinas, e também por seu mar tranquilo, ideal para o turismo náutico.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.399,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.266,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="./imagens/ICP-P3.jpg" class="card-img-top" alt="imagem praia Ilha do Capeche">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>ILHA DO CAMPECHE - SC</strong></h5>
+              <p class="card-text">A Ilha do Campeche se destaca pela areia branca e pelo mar turquesa, além do
+                movimento
+                mais discreto em comparação a outras praias de Floripa. Como a ilha só pode ser acessada de barco, a
+                região é menos badalada e você poderá curtir as águas sem precisar disputar lugar na areia com grandes
+                multidões.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>1.849,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.628,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 borda_card">
+            <img src="imagens/SG-P3.jpg" class="card-img-top" alt="imagem praia São Miguel do Gostoso">
+            <div class="card-body">
+              <h5 class="card-title h_center"><strong>SÃO MIGUEL DO GOSTOSO - RN</strong></h5>
+              <p class="card-text">São Miguel do Gostoso é uma simpática vila de pescadores, esse paraíso possui praias
+                com dunas, águas calmas e grandes faixas de areia. O clima pacato, o mar azul e o vento propício para a
+                prática de kitesurf e windsurf colocaram São Miguel do Gostoso na lista das praias mais bonitas do
+                Brasil.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">
+                <p><strong>Pagamanto em até 12X sem juros: </strong></p>
+              </small>
+              <small class="text-muted">
+                <p><em>De: R$ <del>2.200,00</del></em></strong></p>
+              </small>
+              <small class="text-muted">
+                <p id="cor_preco"><strong>Por: R$ 1.999,00</strong></p>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fim cards -->
+    </main>
+    <!-- fim main -->
+
+    <br>
+    <br>
+
+    <!-- inicio footer -->
+    <footer id=copy>
+      <p id="formas_pagamento">
+        <strong>Formas de pagamento:</strong>
+      </p>
+      <img src="./imagens/formas de pagamento.webp" alt="Formas de pagamento" width="400px">
+      <br>
+      <br>
+      &copy;Alto Padrão Turismo Company - 2022
+    </footer>
+    <!-- fim footer -->
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+    <!-- fim da pagina destinos -->
+
+
+</body>
+
+</html>
